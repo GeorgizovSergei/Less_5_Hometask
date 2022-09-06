@@ -6,26 +6,30 @@
 
 Console.Write("Задайте размер массива: ");
 int sizeMass = Convert.ToInt32(Console.ReadLine());
-Console.Write("Задайте числовой диапазон массива. От: ");
+Console.Write("Введите первое число для рандомного рандома: ");
 int min = Convert.ToInt32(Console.ReadLine());
-Console.Write("Задайте числовой диапазон массива. До: ");
+Console.Write("Введите второе число для рандомного рандома: ");
 int max = Convert.ToInt32(Console.ReadLine());
 double[] massive = new double[sizeMass];
 
 void FillArray(double[] massive, int min, int max)
 {
+    Random rnd = new Random();
+    double countX = rnd.NextDouble();
+
     for (int i = 0; i < massive.Length; i++)
     {
         massive[i] = new Random().Next(min, max);
+        massive[i] += (countX + i) * countX;
     }
 }
 
 void WriteArray(double[] massive)
 {
-    Console.Write("[ ");
+    Console.Write("[");
     for (int i = 0; i < massive.Length; i++)
     {
-        Console.Write(massive[i] + " ");
+        Console.Write("{0: #.##}", massive[i]);
     }
     Console.Write("]");
 }
@@ -50,7 +54,7 @@ double DiffMinMax(double[] massive)
     return difference;
 }
 
-FillArray(massive, min, max);
+FillArray(massive, min, max); 
 WriteArray(massive);
 double difference = DiffMinMax(massive);
-Console.WriteLine($" --> Разница между максимальным и минимальным \n числовым значением в массиве равна: {difference}.");
+Console.WriteLine(" --> Разница между максимальным и минимальным \n числовым значением в массиве равна {0: #.##}", difference);
