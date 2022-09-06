@@ -1,0 +1,15 @@
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\bin\Debug\net6.0\Hometask_34.exe
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\bin\Debug\net6.0\Hometask_34.deps.json
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\bin\Debug\net6.0\Hometask_34.runtimeconfig.json
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\bin\Debug\net6.0\Hometask_34.dll
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\bin\Debug\net6.0\Hometask_34.pdb
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.csproj.AssemblyReference.cache
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.GeneratedMSBuildEditorConfig.editorconfig
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.AssemblyInfoInputs.cache
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.AssemblyInfo.cs
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.csproj.CoreCompileInputs.cache
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.dll
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\refint\Hometask_34.dll
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.pdb
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\Hometask_34.genruntimeconfig.cache
+F:\GB\Hometask\Less_5_Hometask\Hometask_34\obj\Debug\net6.0\ref\Hometask_34.dll
